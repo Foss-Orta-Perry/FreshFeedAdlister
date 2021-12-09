@@ -16,7 +16,7 @@
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
 <div class="container">
-    <h1>Welcome, userName goes here!</h1>
+    <h1>Welcome, {userName}</h1>
 </div>
 
 </body>
