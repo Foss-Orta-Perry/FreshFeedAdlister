@@ -1,8 +1,8 @@
 package com.freshfeed.adlister.dao;
 
-import com.sun.tools.javac.util.List;
-import com.freshfeed.adlister.models.Ad;
 
+import com.freshfeed.adlister.models.Ad;
+import java.util.List;
 import java.sql.SQLException;
 
 public interface Ads {

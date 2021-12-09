@@ -18,28 +18,14 @@ public class MySQLUsersDao implements Users {
         );
     }
 
+
     @Override
     public User findByUsername(String username) throws SQLException {
-        String sql = "SELECT * FROM users WHERE username LIKE ? LIMIT 1";
-
-        PreparedStatement statement = connection.prepareStatement(sql);
-        statement.setString(1, username);
+        return null;
     }
 
     @Override
     public Long insert(User user) {
-
-
-    }
-
-    private User extractUser(ResultSet rs) throws SQLException {
-        while (rs.next()) {
-            return new User(
-                    rs.getLong("id"),
-                    rs.getString("username"),
-                    rs.getString("email"),
-                    rs.getString("password")
-            );
-        };
+        return null;
     }
 }
