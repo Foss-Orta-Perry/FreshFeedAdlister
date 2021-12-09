@@ -26,5 +26,10 @@
     </c:forEach>
 </div>
 
+    <form class="form-inline d-flex mx-auto">
+        <input class="form-control mx-auto" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
 </body>
 </html>
