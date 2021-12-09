@@ -38,8 +38,8 @@
         <br>
 
         <div class="custom-file">
-            <input type="file" class="custom-file-input" id="profileImage">
             <label class="custom-file-label" for="profileImage">Upload A Profile Picture</label>
+            <input type="file" class="custom-file-input" id="profileImage">
         </div>
         <br>
 
