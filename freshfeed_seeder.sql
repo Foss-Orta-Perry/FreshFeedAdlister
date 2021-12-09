@@ -1,3 +1,5 @@
+USE thefreshfeed_db;
+
 INSERT INTO customer (first_name, last_name, email, username, password, is_vendor) VALUES
     ('Rodriques', 'Perry', 'mrperry@email.com', 'rperry', 'password123', true),
     ('John', 'Doe', 'john@doe.com', 'john', 'password123', false),
