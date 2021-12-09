@@ -19,6 +19,9 @@ public class Ad {
         this.cat_id = cat_id;
     }
 
+    public Ad(int id, String title, String description) {
+    }
+
     public long getId() {
         return id;
     }
