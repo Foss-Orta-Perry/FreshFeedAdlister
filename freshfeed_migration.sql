@@ -1,5 +1,3 @@
-DROP DATABASE IF EXISTS thefreshfeed_db;
-
 CREATE DATABASE IF NOT EXISTS thefreshfeed_db;
 
 USE thefreshfeed_db;
