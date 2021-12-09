@@ -1,4 +1,4 @@
-package model;
+package com.freshfeed.adlister.models;
 
 public class User {
     private long id;
