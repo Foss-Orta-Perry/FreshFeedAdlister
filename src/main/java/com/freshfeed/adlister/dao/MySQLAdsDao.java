@@ -28,55 +28,14 @@ public class MySQLAdsDao implements Ads {
         }
     }
 
+
     @Override
     public List<Ad> all() throws SQLException {
-        Statement stmt = null;
-        String sql = "SELECT * FROM ads";
-
-        PreparedStatement statement = connection.prepareStatement(sql);
-        ResultSet rs = statement.executeQuery();
-
-        return createAdsFromResults(rs);
-
-
+        return null;
     }
 
     @Override
     public Long insert(Ad ad) throws SQLException {
-        PreparedStatement statement = connection.prepareStatement(createInsertQuery(ad), Statement.RETURN_GENERATED_KEYS);
-
-        statement.setLong(1, ad.getUserId());
-        statement.setString(2, ad.getTitle());
-        statement.setString(3, ad.getDescription());
-
-        statement.executeUpdate();
-        ResultSet generatedResultSet = statement.getGeneratedKeys();
-
-        ResultSet rs = statement.getGeneratedKeys();
-        rs.next();
-        return rs.getLong(1);
-    }
-
-    private String createInsertQuery(Ad ad) {
-        return "INSERT INTO ads (user_id, title, description) VALUES (?, ?, ?)";
-
-
-    }
-
-    private Ad extractAd(ResultSet rs) throws SQLException {
-        return new Ad(
-                rs.getLong("id"),
-                rs.getLong("user_id"),
-                rs.getString("title"),
-                rs.getString("description")
-        );
-    }
-
-    private List<Ad> createAdsFromResults(ResultSet rs) throws SQLException {
-        List<Ad> ads = new ArrayList<>();
-        while (rs.next()) {
-            ads.add(extractAd(rs));
-        }
-        return ads;
+        return null;
     }
 }
