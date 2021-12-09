@@ -13,6 +13,9 @@
 </head>
 <body>
     <%@ include file="WEB-INF/partials/navbar.jsp"%>
-    <h1>Hello World!</h1>
+    <div class="w-100">
+        <img src="https://images.unsplash.com/photo-1567306295427-94503f8300d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFybWVycyUyMG1hcmtldHxlbnwwfHwwfHw%3D&w=1000&q=80" class="img-fluid" style="margin-left: 19%" alt="Farmers Market">
+    </div>
+
 </body>
 </html>
