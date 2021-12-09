@@ -17,5 +17,10 @@
         <img src="https://images.unsplash.com/photo-1567306295427-94503f8300d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFybWVycyUyMG1hcmtldHxlbnwwfHwwfHw%3D&w=1000&q=80" class="img-fluid" style="margin-left: 19%" alt="Farmers Market">
     </div>
 
+    <form class="form-inline d-flex mx-auto">
+        <input class="form-control mx-auto" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
 </body>
 </html>
